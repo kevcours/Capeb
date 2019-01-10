@@ -1,0 +1,96 @@
+p{
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+.fond{
+    background: url(../img/background.jpg);
+    background-position: center;
+}
+
+.rm-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#FFF;
+   
+}
+
+.accroche{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.rm-badge{
+    margin : 10px 0;
+}
+
+.rm-form {
+    margin:40px auto;
+
+}
+
+.social {
+    padding: 50px 0;
+    background: #000;
+}
+
+
+.social a {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.social a i{
+    color: #FFF;
+    text-align: center;
+    font-size: 2em;
+    line-height: 2.5em;
+    height: 2.5em;
+    width: 2.5em;
+}
+
+
+.border{
+    border:3px solid #FFF;
+}
+
+.banderolle {
+    padding: 30px 0;
+    background: black;
+}
+
+.banderolle footer h3{
+    text-align: center;
+    color: #807d7d
+}
+
+.banderolle footer h3 span {
+    font-weight: bold;
+    color: #FFF;
+}
+.bg{
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+}
+
+
+.mail{
+    border :solid 2px black;
+    width: 100%;
+}
+@media (max-width: 575px) { 
+    p {
+        font-size: 1.0em;
+    }
+
+    .rm-badge {
+        text-align: center;
+    }
+    .response{
+        margin-left: 70%;
+    }
+
+}
